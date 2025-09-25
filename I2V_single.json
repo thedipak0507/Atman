@@ -1,7 +1,7 @@
 {
   "120": {
     "inputs": {
-      "model": "Wan2_1-InfiniteTalk_Single_Q8.gguf"
+      "model": "Wan2_1-InfiniteTalk_Single_Q4_K_M.gguf"
     },
     "class_type": "MultiTalkModelLoader",
     "_meta": {
@@ -10,7 +10,7 @@
   },
   "122": {
     "inputs": {
-      "model": "wan2.1-i2v-14b-480p-Q8_0.gguf",
+      "model": "wan2.1-i2v-14b-480p-Q5_0.gguf",
       "base_precision": "fp16_fast",
       "quantization": "disabled",
       "load_device": "offload_device",
